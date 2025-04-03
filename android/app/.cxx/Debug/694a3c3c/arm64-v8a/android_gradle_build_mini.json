@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\Users\\dinus\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\dinus\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\NSBM\\10819477_Source_Code\\Smart Personal Coach (Mobile)\\android\\app\\.cxx\\Debug\\694a3c3c\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\dinus\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\NSBM\\10819477_Source_Code\\Smart Personal Coach (Mobile)\\android\\app\\.cxx\\Debug\\694a3c3c\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

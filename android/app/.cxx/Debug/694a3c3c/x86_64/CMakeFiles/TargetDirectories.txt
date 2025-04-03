@@ -1,0 +1,2 @@
+D:/NSBM/10819477_Source_Code/Smart Personal Coach (Mobile)/android/app/.cxx/Debug/694a3c3c/x86_64/CMakeFiles/edit_cache.dir
+D:/NSBM/10819477_Source_Code/Smart Personal Coach (Mobile)/android/app/.cxx/Debug/694a3c3c/x86_64/CMakeFiles/rebuild_cache.dir

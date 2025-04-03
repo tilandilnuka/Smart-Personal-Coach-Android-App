@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "320796852485",
+    "project_id": "smart-personal-coach-37f5d",
+    "storage_bucket": "smart-personal-coach-37f5d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320796852485:android:0986415e38c04adca0376c",
+        "android_client_info": {
+          "package_name": "com.adna.smart_personal_coach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-lp4nSmzrMPios6zY6--JrV5VzUluMOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320796852485:android:04194266f60bd305a0376c",
+        "android_client_info": {
+          "package_name": "com.example.smart_personal_coach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-lp4nSmzrMPios6zY6--JrV5VzUluMOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

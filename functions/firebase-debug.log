@@ -1,0 +1,93 @@
+[debug] [2025-04-02T20:06:05.907Z] ----------------------------------------------------------------------
+[debug] [2025-04-02T20:06:05.909Z] Command:       F:\Node\node.exe C:\Users\dinus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-02T20:06:05.909Z] CLI Version:   14.0.1
+[debug] [2025-04-02T20:06:05.909Z] Platform:      win32
+[debug] [2025-04-02T20:06:05.909Z] Node Version:  v22.11.0
+[debug] [2025-04-02T20:06:05.910Z] Time:          Thu Apr 03 2025 01:36:05 GMT+0530 (India Standard Time)
+[debug] [2025-04-02T20:06:05.910Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-02T20:06:06.054Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-04-02T20:06:06.058Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-02T20:06:06.058Z] > authorizing via signed-in user (fluttergroup2025@gmail.com)
+[info] i  emulators: Starting emulators: functions, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, extensions"}}
+[debug] [2025-04-02T20:06:06.061Z] Checked if tokens are valid: true, expires at: 1743626968203
+[debug] [2025-04-02T20:06:06.061Z] Checked if tokens are valid: true, expires at: 1743626968203
+[debug] [2025-04-02T20:06:06.062Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/smart-personal-coach-37f5d [none]
+[debug] [2025-04-02T20:06:07.248Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/smart-personal-coach-37f5d 200
+[debug] [2025-04-02T20:06:07.248Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/smart-personal-coach-37f5d {"projectNumber":"320796852485","projectId":"smart-personal-coach-37f5d","lifecycleState":"ACTIVE","name":"Smart Personal Coach","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-03-30T17:48:14.041163Z"}
+[debug] [2025-04-02T20:06:07.255Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-02T20:06:07.255Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-02T20:06:07.257Z] [hub] writing locator at C:\Users\dinus\AppData\Local\Temp\hub-smart-personal-coach-37f5d.json
+[debug] [2025-04-02T20:06:07.261Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-04-02T20:06:07.265Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-02T20:06:07.265Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-02T20:06:07.265Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-02T20:06:07.265Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2025-04-02T20:06:07.275Z] defaultcredentials: writing to file C:\Users\dinus\AppData\Roaming\firebase\fluttergroup2025_gmail_com_application_default_credentials.json
+[debug] [2025-04-02T20:06:07.276Z] Setting GAC to C:\Users\dinus\AppData\Roaming\firebase\fluttergroup2025_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\dinus\\AppData\\Roaming\\firebase\\fluttergroup2025_gmail_com_application_default_credentials.json"}}
+[debug] [2025-04-02T20:06:07.276Z] Checked if tokens are valid: true, expires at: 1743626968203
+[debug] [2025-04-02T20:06:07.276Z] Checked if tokens are valid: true, expires at: 1743626968203
+[debug] [2025-04-02T20:06:07.276Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smart-personal-coach-37f5d/adminSdkConfig [none]
+[debug] [2025-04-02T20:06:07.921Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smart-personal-coach-37f5d/adminSdkConfig 200
+[debug] [2025-04-02T20:06:07.921Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smart-personal-coach-37f5d/adminSdkConfig {"projectId":"smart-personal-coach-37f5d","storageBucket":"smart-personal-coach-37f5d.firebasestorage.app"}
+[debug] [2025-04-02T20:06:07.935Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "D:\NSBM\Smart-Personal-Coach--Mobile-\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\NSBM\\Smart-Personal-Coach--Mobile-\\functions\" for Cloud Functions..."}}
+[debug] [2025-04-02T20:06:07.941Z] Validating nodejs source
+[debug] [2025-04-02T20:06:08.871Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "stripe": "^18.0.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-04-02T20:06:08.871Z] Building nodejs source
+[debug] [2025-04-02T20:06:08.871Z] Failed to find version of module node: reached end of search path D:\NSBM\Smart-Personal-Coach--Mobile-\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[debug] [2025-04-02T20:06:08.873Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-04-02T20:06:08.879Z] Found firebase-functions binary at 'D:\NSBM\Smart-Personal-Coach--Mobile-\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8003
+
+[debug] [2025-04-02T20:06:09.468Z] Got response from /__/functions.yaml {"endpoints":{"createPaymentIntent":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"callableTrigger":{},"entryPoint":"createPaymentIntent"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-04-02T20:06:13.491Z] defaultcredentials: writing to file C:\Users\dinus\AppData\Roaming\firebase\fluttergroup2025_gmail_com_application_default_credentials.json
+[debug] [2025-04-02T20:06:13.491Z] Setting GAC to C:\Users\dinus\AppData\Roaming\firebase\fluttergroup2025_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\dinus\\AppData\\Roaming\\firebase\\fluttergroup2025_gmail_com_application_default_credentials.json"}}
+[info] +  functions: Loaded functions definitions from source: createPaymentIntent. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: createPaymentIntent."}}
+[info] +  functions[us-central1-createPaymentIntent]: http function initialized (http://127.0.0.1:5001/smart-personal-coach-37f5d/us-central1/createPaymentIntent). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/smart-personal-coach-37f5d/us-central1/createPaymentIntent)."}}
+[debug] [2025-04-02T20:06:13.496Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
